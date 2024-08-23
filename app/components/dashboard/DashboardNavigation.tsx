@@ -21,6 +21,10 @@ const links = [
     name: "Banner Picture",
     href: "/dashboard/banner",
   },
+  {
+    name: "Store Front",
+    href: "/",
+  },
 ];
 
 export default function DashboardNavigation() {
