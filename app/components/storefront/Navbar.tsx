@@ -49,7 +49,7 @@ export async function Navbar() {
             />
           </>
         ) : (
-          <div className="hidden md:flex md:flex-1 md:items-center md:justify-end md:space-x-2">
+          <div className="md:flex md:flex-1 md:items-center md:justify-end md:space-x-2">
             <Button variant="ghost" asChild>
               <LoginLink>Sign In</LoginLink>
             </Button>
